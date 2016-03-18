@@ -2,7 +2,7 @@
 
 This project aims at building programs that simulate the logical/physical address translation process in OS. LRU policy is used to update TLB and replace pages. The value stored in each logical address can be found in a binary file "BACKING_STORE.bin".
 
-#These programs have following functionalities:
+###These programs have following functionalities:
 
 1. VirtualMemoryManager.java can do the address translation if physical memory has the same size as logical memory.
 2. Modification.java can do the address translation if physical memory is smaller than the logical memory (physical memory has 128 frames). LRU is used for page replacement.
